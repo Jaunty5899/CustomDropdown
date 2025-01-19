@@ -12,7 +12,7 @@ export default function Dropdown({ colors }) {
       <div className={`dropDownList ${toggle && "active"}`}>
         {colors.map((e) => (
           <div
-            className={`dropDownOption`}
+            className={`dropDownOption ${e == choice && "activeMarker"}`}
             onClick={() => {
               setChoice(e);
               setToggle(false);

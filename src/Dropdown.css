@@ -7,15 +7,22 @@
 }
 .dropDownButton {
   border: 2px solid white;
+  border-radius: 5px;
   padding: 5px 10px;
 }
 .dropDownList {
   border: 2px solid white;
+  border-radius: 5px;
   display: none;
 }
 .dropDownOption {
   padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
 }
 .active {
   display: block;
+}
+.activeMarker::after {
+  content: "✔";
 }

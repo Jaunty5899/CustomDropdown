@@ -8,6 +8,7 @@ export default function Dropdown({ colors }) {
     <div className="dropDownContainer">
       <div className="dropDownButton" onClick={() => setToggle(true)}>
         {choice}
+        <span>{toggle ? "🔺" : "🔻"}</span>
       </div>
       <div className={`dropDownList ${toggle && "active"}`}>
         {colors.map((e) => (

@@ -1,0 +1,20 @@
+.dropDownContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 120px;
+}
+.dropDownButton {
+  border: 2px solid white;
+  padding: 5px 10px;
+}
+.dropDownList {
+  border: 2px solid white;
+  display: none;
+}
+.dropDownOption {
+  padding: 5px 10px;
+}
+.active {
+  display: block;
+}

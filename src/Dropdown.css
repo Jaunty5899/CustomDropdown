@@ -15,7 +15,6 @@
 .dropDownList {
   border: 2px solid white;
   border-radius: 5px;
-  /* display: none; */
   max-height: 0;
   overflow: hidden;
   opacity: 0;
@@ -29,7 +28,6 @@
 .active {
   max-height: 200px;
   opacity: 1;
-  /* display: block; */
 }
 .activeMarker::after {
   content: "✔";
